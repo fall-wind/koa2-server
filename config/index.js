@@ -1,11 +1,10 @@
 const config = {
     port: 8080,
-    database: {
-        DATABASE: 'nodesql',
-        USERNAME: 'root',
-        PASSWORD: '123456',
-        PORT: '3306',
-        HOST: '127.0.0.1',
+    db: {
+        database: 'blog',
+        user: 'root',
+        password: '123456',
+        host: '127.0.0.1',
     },
 }
 
